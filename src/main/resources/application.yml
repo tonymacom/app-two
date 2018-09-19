@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: app-two
+  redis:
+    host: 19.168.61.46
+    port: 6379
+    password: 1234
+server:
+  port: 9705
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.61.46:8761/eureka/
