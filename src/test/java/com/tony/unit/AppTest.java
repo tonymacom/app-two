@@ -35,4 +35,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @org.junit.Test
+    public void test(){
+        System.out.println(52/2);
+        System.out.println((int)(52/2));
+        System.out.println(100/0.85);
+        System.out.println((int)(100/0.85));
+    }
 }
