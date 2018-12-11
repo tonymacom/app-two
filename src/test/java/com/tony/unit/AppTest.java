@@ -33,4 +33,11 @@ public class AppTest {
 
     }
 
+    @Test
+    public void testSnowFlake(){
+        SnowFlake snowFlake = new SnowFlake(1, 1);
+        System.out.println(snowFlake.nextId());
+        System.out.println(System.currentTimeMillis());
+    }
+
 }
