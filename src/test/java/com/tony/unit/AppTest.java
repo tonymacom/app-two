@@ -40,4 +40,9 @@ public class AppTest {
         System.out.println(System.currentTimeMillis());
     }
 
+    @Test
+    public void testAbs(){
+        System.out.println(Math.abs(-333));
+    }
+
 }
